@@ -9,6 +9,8 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 RUN conda install --quiet --yes \
     'tensorflow=1.13*' \
     'keras=2.2*' \
+    'libprotobuf=3.8*' \
+    'protobuf=3.8*' \
     'flask=1.0*' \
     'graphviz=2.38*' \
     'intel-openmp=2019.1*' \
