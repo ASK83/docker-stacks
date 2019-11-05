@@ -17,16 +17,17 @@ RUN conda install --quiet --yes \
     'libxgboost=0.90*' \
     'numpy=1.17*' \
     'parquet-cpp=1.5*' \
-    'pyarrow=0.14*' \
+    'pyarrow=0.15*' \
     'colorama=0.4*' \
     'dask-glm=0.2*' \
-    'dask-ml=1.0*' \
+    'dask-ml=1.1*' \
     'memory_profiler=0.55*' \
-    'tpot=0.9*' \
-    'turbodbc=3.2*' \
+    'tpot=0.10*' \
+    'turbodbc=3.3*' \
     'urllib3=1.25*' \
     'plotly=4.1*' \
     'scikit-plot=0.3*' \
+    'swifter=0.294' \
     'imbalanced-learn=0.5*' && \
     conda clean --all -f -y && \
     fix-permissions $CONDA_DIR && \
